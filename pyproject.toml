@@ -1,0 +1,19 @@
+[project]
+name = "protobuf-client-python"
+version = "0.1.0"
+description = "A simple client implementation to ease manual testing of protobuf apis"
+authors = [
+    {name = "Bruno Pinheiro",email = "bruno.opinheiro@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "betterproto[compiler] (>=1.2.5,<2.0.0)",
+    "fastapi (>=0.115.12,<0.116.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
